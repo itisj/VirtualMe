@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>controller test</title>
+  <title>Ave(1+2+3)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <script></script>
@@ -14,61 +14,148 @@
     <div class="wrapper">
         <nav role="navigation">
           <div class="nav-wrapper">
-              <p style="font-size: 36px; 
-              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-              margin-left: 20px; color: white;">Ave(1+2+3)</p>
-            <iframe src="https://i.simmer.io/@dgjjj1012ti/controllertest" allow="camera;microphone" style="width:59.5vw;height:36.9vw"></iframe>
+              <p style="font-size: 48px; margin-left: 20px; color: white;">Ave(1+2+3)</p>
+            <iframe src="https://i.simmer.io/@dgjjj1012ti/2nd" allow="camera;microphone" style="width:59.5vw;height:36.9vw"></iframe>
           </div>
         </nav>
         <section>
             <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 
-                    Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis 
-                    ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. 
-                    Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti 
-                    sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 
-                    Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis 
-                    ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. 
-                    Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti 
-                    sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 
-                    Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis 
-                    ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. 
-                    Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti 
-                    sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                <h2>Initial Intent</h2>
+                <p>
+                    What’s a person’s place in the virtual space? Is that still you when you 
+                    are playing a first-person game? What about a third-person game? Are you playing 
+                    a character, or just giving commands to the avatar? More broadly, what about other 
+                    activities in the virtual space, for instance, having an online meeting? Is it absolute 
+                    first-person while you are meeting on zoom? In that little window that projects your face, 
+                    you can raise a hand, send an emoji, apply background filter, mute or unmute yourself, etc. 
+                    Does that make it second-person in some way? Not like a face-to-face situation, 
+                    you don't need to physically raise a hand or make a facial expression, instead, 
+                    you click on buttons and send commands. Some actions are even unable to do in an 
+                    offline meeting like applying background or mute yourself. Even, Does that make 
+                    it third-person? Image having a face filter on while you are having a meeting, 
+                    the appearance is not you anymore, but you are still in control, 
+                    just like controlling an avatar in any third-person game?
+                    <br>
+                    With this project, I try to encourage people to think critically 
+                    about their places, identities, perspectives, and so on in the virtual space, 
+                    mainly the space embedded in interfaces. 
                 </p>
             </div>
             <div>
-                <img src="img/02_player control wasd.PNG" style="width: 36vw;">
+                <h2>Reflection in Action</h2>
+                <p>I planned to do some modifications to Unity's input system, 
+                    and allow the player to move only with the mouse. 
+                    It was inspired by this template. 
+                </p>
+                <div>
+                    <img src="img/001.PNG" style="max-width: 33vw;">
+                </div>
+                <div>
+                    <img src="img/002.PNG" style="max-width: 33vw;">
+                </div>
+                <p>
+                    But after some experiments, I found it's a bit hard to navigate, 
+                    and less engaged compare to more conventional WASD control. 
+                </p>
+                <div>
+                    <img src="img/003.PNG" style="max-width: 33vw;">
+                </div>
+                <div>
+                    <img src="img/004.PNG" style="max-width: 33vw;">
+                </div>
+                <p>
+                    For camera angle, it's fixed between -15 to 15 degrees, 
+                    cause I want the player to move more to see the environment.  
+                </p>
+                <div>
+                    <img src="img/005.PNG" style="max-width: 33vw;">
+                </div>
+                <p>
+                    With the controller and webcam function finally accomplished, 
+                    I was struggling with what environment to give to it. I tried city scenes, 
+                    not worked very well and failed to have the effect I want. It is too realistic, 
+                    and not strange enough, which is the effect I want. 
+                </p>
+                <div>
+                    <img src="img/006.PNG" style="max-width: 33vw;">
+                </div>
+                <p>
+                    Until online meetings come to my mind, for webcam is frequently used on this occasion. 
+                    But I will set it up in a very distorted way.
+                </p>
+                <div>
+                    <img src="img/007.PNG" style="max-width: 33vw;">
+                </div>
+                <p>
+                    For the 3D objects, I made them extremely large to let the player feel the 
+                    hugeness and the tension made by the large space. Eventually, the player will reach the border, 
+                    and find out it is a closed space. 
+                    <br>
+                    Also, the 3D objects are randomly arranged, and some positions are a bit misleading. 
+                    The reason for that is that I want it not that easy for the player to find the border 
+                    and feel some lostness while finding the way out.
+                </p>
+                <div>
+                    <img src="img/008.PNG" style="max-width: 33vw;">
+                </div>
+                <p>
+                    In the test build, the skybox was set to daytime, and it become too realistic for me, 
+                    so I modified it to a night sky, but still with rather bright light to make the space more surreal.
+                </p>
+                <div>
+                    <img src="img/009.PNG" style="max-width: 33vw;">
+                </div>
+                <p>
+                    For objects' texture, I used an online meeting interface with no one turn the cameras on. 
+                    I always find it surreal and weird to have a meeting while staring at all the squares with letters, 
+                    and without knowing anyone's face.
+                </p>
+                <div>
+                    <img src="img/010.PNG" style="max-width: 33vw;">
+                </div>
+                <p>
+                    After a test, it becomes too quiet for me, and not have the feeling of doing an online meeting. 
+                    That's why I put a recording of the online meeting as ambient.
+                    <br>
+                    There were some issues to have the access to the camera and turns out chrome 
+                    blocks any camera access through iframe. Turns out, virtual space is not that free as people said, 
+                    there are still plenty of policies.
+                </p>
+                <div>
+                    <img src="img/011.PNG" style="max-width: 33vw;">
+                </div>
+                <p>
+                    What I failed here is not managed video player to render in WebGL. 
+                    I linked a test play recording below. I will see are there any ways 
+                    to fix this issue in the next branch.
+                </p>
+                <video style="max-width: 33vw;" controls>
+                    <source src="img/012.mp4" type="video/mp4">
+                </video>
             </div>
 
             <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 
-                    Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis 
-                    ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. 
-                    Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti 
-                    sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 
-                    Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis 
-                    ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. 
-                    Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti 
-                    sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                <h2>Reflection on Action</h2>
+                <p>Overall. I think this project delivered my idea even I failed to render videos. 
+                    It's already strange enough to navigate within that space while staring at the image of oneself. 
+                    Inspired by online meetings, it would be more wired if it is multiplayer, which is my plan 
+                    for the next branch. One thing that I am not that satisfied with is it's not strange enough. 
+                    And that strangeness is what I intend to achieve. I hope it would take people to think critically 
+                    about representations within a virtual space with that strangeness. For the environment, 
+                    what I have right now are just these large-scale interfaces. But they are static and failed 
+                    to provide more interactions. So, moving on to the next branch, more interactions and a multiplayer 
+                    system would be my focus.
+                    <br>
+                    There are also some issues with embedding in the browser. 
+                    One is access to the camera, the other is, using unity, 
+                    I have to build first then run and test in the browser, 
+                    which means I'm not able to do changes live like using a text editor. 
+                    I can not do too much about the first one, for it's mainly a policy. For unity,
+                     as a software that enables me to create interactive embodiment in browsers, 
+                     it might not be the only and the best choice. I will see if there are 
+                     any other options like three.js. 
                 </p>
             </div>
-            <div>
-                <img src="img/01_input system.PNG" style="width: 36vw;">
-            </div>
-
-                
          </section>
 
     </div>
