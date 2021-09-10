@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Kaushan+Script&family=Lobster&family=Major+Mono+Display&family=Ranchers&display=swap');
 body {
     padding:0;
     margin:0;
@@ -25,3 +26,47 @@ body {
   }
 
   
+  .change-text {
+    font-size: 36px;
+    color: #fffff1;
+    animation-name: fontChange;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
+    margin-left: 24px;
+  }
+  
+  @keyframes fontChange {
+    0% {
+      font-family: 'Major Mono Display', monospace;
+    }
+    10% {
+      font-family: 'Kaushan Script', cursive;
+    }
+    20% {
+      font-family: 'Lobster', cursive;
+    }
+    30% {
+      font-family: 'Ranchers', cursive;
+    }
+    40% {
+      font-family: 'Bitter', serif;
+    }
+    50% {
+      font-family: 'Major Mono Display', monospace;
+    }
+    60% {
+      font-family: 'Ranchers', cursive;
+    }
+    70% {
+      font-family: 'Kaushan Script', cursive;
+    }
+    80% {
+      font-family: 'Bitter', serif;
+    }
+    90% {
+      font-family: 'Ranchers', cursive;
+    }
+    100% {
+      font-family: 'Major Mono Display', monospace;
+    }
+  }
